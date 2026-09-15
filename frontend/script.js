@@ -1,4 +1,4 @@
-const BACKEND_URL = "http://localhost:3000";
+const BACKEND_URL = "https://devlog-backend-u7xo.onrender.com";
 
 const form = document.getElementById("bug-form");
 const bugList = document.getElementById("bug-list");
