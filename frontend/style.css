@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+}
+
+.container {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #666;
+}
+
+.card,
+.bug {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input,
+textarea {
+  padding: 11px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+button {
+  padding: 11px 16px;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+button[type="submit"] {
+  background: #222;
+  color: white;
+}
+
+.edit {
+  background: #ddd;
+}
+
+.delete {
+  background: #eee;
+}
+
+.cancel {
+  background: #ddd;
+}
+
+.hidden {
+  display: none;
+}
+
+#error {
+  color: #c00;
+}
+
+#message {
+  font-weight: bold;
+}
+
+.bug h3 {
+  margin-top: 0;
+}
+
+.bug p {
+  line-height: 1.5;
+}
+
+.meta {
+  color: #666;
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}

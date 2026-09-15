@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevLog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <h1>DevLog</h1>
+    <p class="subtitle">Save programming errors and their solutions.</p>
+
+    <section class="card">
+      <h2 id="form-title">Add a Bug</h2>
+
+      <form id="bug-form">
+        <input type="hidden" id="bug-id">
+
+        <label>Bug Title</label>
+        <input id="title" type="text" placeholder="e.g. Prisma connection error" required>
+
+        <label>Technology</label>
+        <input id="technology" type="text" placeholder="e.g. Node.js" required>
+
+        <label>Description</label>
+        <textarea id="description" placeholder="What error did you face?" required></textarea>
+
+        <label>Solution</label>
+        <textarea id="solution" placeholder="How did you solve it?" required></textarea>
+
+        <label>Date</label>
+        <input id="date" type="date" required>
+
+        <button type="submit" id="submit-button">Save Bug</button>
+        <button type="button" id="cancel-button" class="cancel hidden">Cancel Edit</button>
+      </form>
+
+      <p id="message"></p>
+    </section>
+
+    <section>
+      <h2>My Bug History</h2>
+      <p id="loading">Loading bugs...</p>
+      <p id="error"></p>
+      <div id="bug-list"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
