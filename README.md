@@ -23,9 +23,9 @@ While learning and building projects, I often encounter errors that take time to
 
 ## Live Deployment
 
-**Frontend:** To be added after deployment.
+**Frontend:** https://lively-cascaron-901bb3.netlify.app
 
-**Backend:** To be added after deployment.
+**Backend:** https://devlog-backend-u7xo.onrender.com
 
 ## CRUD Routes
 
